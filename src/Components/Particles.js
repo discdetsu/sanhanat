@@ -2,6 +2,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 //import { loadFull } from "tsparticles"; // loads tsparticles
 import { useCallback, useMemo } from "react";
+import './Particles.css';
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
 // tsParticles Website: https://particles.js.org/
@@ -15,7 +16,7 @@ const ParticlesComponent = (props) => {
         color: "", // this sets a background color for the canvas
       },
       fullScreen: {
-        enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
+        enable: false, // enabling this will make the canvas fill the entire screen, it's enabled by default
         zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       fpsLimit: 120,
@@ -131,7 +132,7 @@ const ParticlesComponent = (props) => {
   }, []);
 
   // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components
-  return <Particles id={props.id} init={particlesInit} options={options} />;
+  return <Particles className={props.className} id={props.id} init={particlesInit} options={options} />;
 };
 
 export default ParticlesComponent;
