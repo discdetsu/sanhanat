@@ -31,7 +31,7 @@ const Projects = () => {
                             <div className="project-content">
                                 <h3>Products Recognition</h3>
                                 <span>Image clasification model for Autofill system</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore culpa ipsum ullam iusto, voluptatum beatae quis autem minus vero assumenda laudantium, commodi ut ratione quo asperiores amet explicabo maiores.</p>
+                                <p>The model was trained from manually labelled approximately 11,719 images with 16 classes. With the power of the pre-trained model by RestNet50, I can achieve 92.32% accuracy and thanks to Google Colab's GPU I can train this model even faster.</p>
                                 <div className='source-btn'>
 
                                     <a href='https://colab.research.google.com/drive/1kU229EFf-6cGpKcldEpn1p5K41jT4Mot?usp=sharing' >
@@ -51,7 +51,8 @@ const Projects = () => {
                             <div className="project-content">
                                 <h3>Parasite eggs detection</h3>
                                 <span>Senior project</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore culpa ipsum ullam iusto, voluptatum beatae quis autem minus vero assumenda laudantium, commodi ut ratione quo asperiores amet explicabo maiores.</p>
+                                <p>Bile duct cancer can cause by Opisthorchis Viverrini (OV) parasite. It can be diagnosed by detecting parasite eggs in the stool, 
+and by analyzing the microscopic image of the faecal slide. But the OV egg has almost the same size and shape as the eggs of the minute intestinal fluke (MIF). By training the state-of-the-art YOLO object detection model, I can able accurately detect and classify parasite eggs.</p>
                                 <div className='source-btn'>
                                 <a href='https://github.com/discdetsu/MIFvsOV'>
                                     <button  ><FontAwesomeIcon icon={faGithubAlt} /> Source</button>
@@ -72,7 +73,7 @@ const Projects = () => {
                             <div className="project-content">
                                 <h3>Face detection web app</h3>
                                 <span>Course project</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore culpa ipsum ullam iusto, voluptatum beatae quis autem minus vero assumenda laudantium, commodi ut ratione quo asperiores amet explicabo maiores.</p>
+                                <p>The Complete Web Developer in 2022: Zero to Mastery course by Andrei Neagoie from Udemy. The instructor this me how to build full stack web development by creating a face recognition website in the PERN stack.</p>
                                 <div className='source-btn'>
                                     <a href='https://github.com/discdetsu/face-detection-clarifai-api'>
                                     <button ><FontAwesomeIcon icon={faGithubAlt} /> Source</button>
@@ -94,7 +95,7 @@ const Projects = () => {
                             <div className="project-content">
                                 <h3>Yearly charm</h3>
                                 <span>Personal project</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore culpa ipsum ullam iusto, voluptatum beatae quis autem minus vero assumenda laudantium, commodi ut ratione quo asperiores amet explicabo maiores.</p>
+                                <p>My future family e-commerce website. The landing page is made by just pure HTML, CSS and javascript and aims to build a parallax effect when the mouse moves.</p>
                                 <div className='source-btn'>
                                     <a href='https://github.com/discdetsu/yearly-landing.github.io'>
                                     <button ><FontAwesomeIcon icon={faGithubAlt} /> Source</button>

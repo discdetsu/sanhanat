@@ -13,7 +13,7 @@ const Header = () => {
                     <h1>Sanhanat Nammaliwan</h1>
                 </div>
                 <div className="sub-banner-title">
-                    <h2>Computer Vision Enthusiast & API Master</h2>
+                    <h2>Computer Vision Enthusiast & Data Master</h2>
                 </div>
             </div>
             <div className="profile-pic">
@@ -21,13 +21,13 @@ const Header = () => {
             </div>
             <div className="bio">
                 <p><>
-                    For over a decade, I have studied and inscribed the
-                    sacred runes and performed the arcane rituals that
-                    breathe life into the realm of the internet.
+                    For the 11,719 raw images, I have annotated and built all the
+                    processes of data engineering, modeling and deploying that
+                    breathe life into the realm of the e-commerce.
                     <br />
                     <br />
-                    The web can sometimes be indistinguishable from
-                    magic, but I have the knowledge and patience required
+                    Computer vision can sometimes be unfathomable from
+                    the abyss, but I have the StackOverflow and patience 
                     to make just about anything.
                     </>
                 </p>
