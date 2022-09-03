@@ -12,14 +12,13 @@ const Experiences = () => {
               <div className="timeline-content">
               <h3>Apr 2018</h3>
               <span>Kasetsart University</span>
-              <p>Bachelor of Science, Computer Science
-                  <ul style={{listStyleType: 'none'}}> 
+              <p>Bachelor of Science, Computer Science</p>
+              <ul style={{listStyleType: 'none'}}> 
                       <li className="list">Thesis: Opisthorchis viverrini and Minute Intestinal Fluke Parasite Egg Detection and Classification using Deep
                   Learning Methods</li>
 
                   <li className="list">Supervisor: Assist. prof. Phakaket Wattuya</li>
                   </ul>
-              </p>
               </div>
           </div>
           <div className="timeline-block timeline-block-left">

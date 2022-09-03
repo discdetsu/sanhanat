@@ -5,7 +5,7 @@ import profile from '../../static/images/profile.svg'
 
 const Header = () => {
     return (
-        <header>
+        <header id='home'>
             <Navbar />
             <div className="header-container">
             <div className="banner">

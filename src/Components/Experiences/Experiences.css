@@ -62,9 +62,9 @@
     height: 16px;
     border-radius: 50%;
     /* border: 2px solid #F5F7FA; */
-    background: #4FC1E9;
+    background: #869fc6;
     margin-top: 10px;
-    z-index: 9999
+    z-index: 99
  }
  
  .timeline-content {
@@ -91,7 +91,7 @@
     font-size: 1.2rem;
     line-height: 1.5em;
     word-spacing: 1px;
-    color: #888;
+    color: #cbd6e6;
     text-align: justify;
  }
 

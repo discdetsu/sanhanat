@@ -1,4 +1,4 @@
-nav {
+.navbar {
     top: 0;
     left: 0;
     position: fixed;
@@ -8,19 +8,41 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999
+    z-index: 9999;
+    background-color: transparent;
+    transition: .3s ease-in;
+    /* box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%); */
 }
+
+.scroll-navbar {
+    background-color: #192434;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
 nav ul {
     
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
     list-style: none;
-    width: 485px;
+    width: 435px;
     /* border: 1px solid gold; */
     justify-content: space-between;
 }
 
 nav ul li a {
     text-decoration: none;
+}
+
+nav ul li div,
+nav ul li a {
+    cursor: pointer;
+    color: #cbd6e6;
+}
+
+nav ul li div:hover,
+nav ul li a:focus,
+nav ul li a:hover,
+nav ul li div:focus-within {
+    color: #aa8cf2;
 }
