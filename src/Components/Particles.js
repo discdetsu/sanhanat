@@ -20,51 +20,12 @@ const ParticlesComponent = (props) => {
         zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       fpsLimit: 120,
-      interactivity: {
-        detect_on: "canvas",
-        events: {
-          onhover: {
-            enable: false,
-            mode: "bubble"
-          },
-          onclick: {
-            enable: false,
-            mode: "repulse"
-          },
-          resize: false
-        },
-        modes: {
-          grab: {
-            distance: 400,
-            line_linked: {
-              opacity: 1
-            }
-          },
-          bubble: {
-            distance: 250,
-            size: 0,
-            duration: 2,
-            opacity: 0,
-            speed: 3
-          },
-          repulse: {
-            distance: 400,
-            duration: 0.4
-          },
-          push: {
-            particles_nb: 4
-          },
-          remove: {
-            particles_nb: 2
-          }
-        }
-      },
       particles: {
         number: {
-          value: 160,
+          value: 355,
           density: {
             enable: true,
-            value_area: 800
+            value_area: 789.1476416322727
           }
         },
         color: {
@@ -81,22 +42,22 @@ const ParticlesComponent = (props) => {
           },
         },
         opacity: {
-          value: 0.48927153781200905,
-          random: true,
+          value: 0.7,
+          random: false,
           anim: {
             enable: true,
-            speed: 1,
+            speed: 0.2,
             opacity_min: 0,
             sync: false
           }
         },
         size: {
-          value: 3,
+          value: 2,
           random: true,
           anim: {
-            enable: false,
-            speed: 4,
-            size_min: 0.3,
+            enable: true,
+            speed: 2,
+            size_min: 0,
             sync: false
           }
         },
@@ -109,7 +70,7 @@ const ParticlesComponent = (props) => {
         },
         move: {
           enable: true,
-          speed: 0.17,
+          speed: 0.2,
           direction: "none",
           random: true,
           straight: false,
@@ -118,9 +79,10 @@ const ParticlesComponent = (props) => {
           attract: {
             enable: false,
             rotateX: 600,
-            rotateY: 600
+            rotateY: 1200
           }
-        }},
+        }
+      },
         retina_detect: true
     };
   }, []);
