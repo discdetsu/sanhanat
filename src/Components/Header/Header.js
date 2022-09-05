@@ -13,7 +13,7 @@ const Header = () => {
                     <h1>Sanhanat Nammaliwan</h1>
                 </div>
                 <div className="sub-banner-title">
-                    <h2>Computer Vision Enthusiast & Data Master</h2>
+                    <h2>Computer Vision & Data Enthusiast</h2>
                 </div>
             </div>
             <div className="profile-pic">
